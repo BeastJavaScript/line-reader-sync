@@ -1,6 +1,6 @@
 {
   "name": "beast-lr-sync",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "bin/LineReaderSync.js",
   "author": "Shavauhn Gabay",
   "devDependencies": {
