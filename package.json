@@ -1,0 +1,13 @@
+{
+    "name":"line-reader-sync",
+    "version":"0.0.1",
+    "main":"bin/LineReaderSync.js",
+    "author":"Shavauhn Gabay",
+    "devDependencies":{
+        "beast-test":"0.*",
+        "coffee-script":"*"
+    },
+    "scripts":{
+        "prepublish":"coffee -c -o bin src/*.coffee"
+    }
+}
