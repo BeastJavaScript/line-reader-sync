@@ -36,6 +36,7 @@
       }
       if (char === 0) {
         this.finish = true;
+        this.file.close();
       }
       string = this.line.slice(0, this.buffer_size).toString().slice(0, -1);
       this.clear();

@@ -23,6 +23,7 @@ class LineReaderSync
       break if (char=@line[@buffer_size-1]) is 0 or char is 13
     if char is 0
       @finish=true
+      @file.close()
     string=@line.slice(0,@buffer_size).toString()[0...-1]
     @clear()
     string
