@@ -1,13 +1,13 @@
 {
-    "name":"beast-lr-sync",
-    "version":"0.0.2",
-    "main":"bin/LineReaderSync.js",
-    "author":"Shavauhn Gabay",
-    "devDependencies":{
-        "beast-test":"0.*",
-        "coffee-script":"*"
-    },
-    "scripts":{
-        "prepublish":"coffee -c -o bin src/LineReaderSync.coffee"
-    }
+  "name": "beast-lr-sync",
+  "version": "0.0.3",
+  "main": "bin/LineReaderSync.js",
+  "author": "Shavauhn Gabay",
+  "devDependencies": {
+    "beast-test": "0.*",
+    "coffee-script": "*"
+  },
+  "scripts": {
+    "prepublish": "coffee -c -o bin src/LineReaderSync.coffee"
+  }
 }
